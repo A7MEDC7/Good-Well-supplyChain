@@ -1,0 +1,48 @@
+$base-color: #fcfcfc !important;
+$trans-color: transparent !important;
+
+.bg-body-tertiary {
+  background-color: $trans-color;
+}
+
+.navbar-brand {
+  color: $base-color;
+}
+
+.nav-link {
+  font-weight: 700;
+}
+
+ .nav-link.active {
+   color: #fcfcfc !important;
+}
+
+.nav-link:hover {
+  color: $base-color;
+}
+
+.navbar-toggler {
+  color: $base-color;
+}
+
+.navbar-toggler-icon {
+  color: $base-color;
+}
+
+.fa-facebook,
+.fa-linkedin {
+  color: #fcfcfc;
+}
+
+.dropdown-menu {
+  background-color: rgba(0, 0, 0, 0.507) !important;
+  width: fit-content;
+}
+
+.dropdown-item {
+  color: $base-color;
+}
+
+.dropdown-item:hover {
+  background-color: rgba(#000000 , .5);
+}
